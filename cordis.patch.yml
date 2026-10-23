@@ -1,0 +1,5 @@
+# dsh-fs-retry bundle patch: mount the plugin row in the host plane.
+# Installed as a local package; lives outside app.asar so app updates don't wipe it.
+- insert:
+    - id: dsh-fs-retry
+      name: dsh-fs-retry
